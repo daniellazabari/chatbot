@@ -1,0 +1,52 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you?", "Hello", "Good day", "What's up?", "Hey, Keith!"],
+            "responses": ["Pretty good. How are you?", "Hey. How are you?", "Hi. How are you?", "Good. How are you?", "Hi!"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later.", "Have a nice day", "Bye! Hope to hear from you soon."],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"],
+            "context_set": ""
+        },
+        {
+            "tag": "payments",
+            "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+            "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"],
+            "context_set": ""
+        },
+        {
+            "tag": "opentoday",
+            "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+            "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"],
+            "context_set": ""  
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "What should I call you?", "What's your name"],
+            "responses": ["You can call me Keith.", "I'm Keith!", "My name is Keith."],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old", "how old is keith", "what is your age", "how old are you", "age?"],
+            "responses": ["I am 18 years old!", "18 years young!"],
+            "context_set": ""
+        }
+    ]
+}
