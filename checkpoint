@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/daniellazabari/Desktop/chatbot/model.tfl"
+all_model_checkpoint_paths: "/Users/daniellazabari/Desktop/chatbot/model.tfl"
